@@ -51,11 +51,11 @@ Content*
   background-size: cover;
   position: relative;
   height: 300px;
-  color: white;
+  color: black;
   text-align: center;
   padding-top: 6%;
 }
 .videos {
     height: 200px;
-    background-color: orange;
+    background-color: lightsalmon;
 }
