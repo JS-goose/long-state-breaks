@@ -6,9 +6,13 @@ body {
   overflow-x: hidden;
   height: 100%;
 }
-.social {
+.navLinks {
     display: flex;
-    justify-content: end;
+    /* justify-content: end; */
+}
+.social {
+    margin-left: 74%;
+
 }
 /* 
 ********
