@@ -8,6 +8,7 @@ body {
 }
 .navLinks {
     display: flex;
+    margin-left: 3%;
     /* justify-content: end; */
 }
 .social {
