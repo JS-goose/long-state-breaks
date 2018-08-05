@@ -12,7 +12,8 @@ body {
   /* justify-content: end; */
 }
 .social {
-  margin-left: 74%;
+  display: flex;
+  margin-left: 70%;
 }
 /* 
 ********
