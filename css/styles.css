@@ -2,9 +2,13 @@ html {
   height: 100%;
   width: 100%;
 }
+main {
+  min-height: 100vh;
+}
 body {
   overflow-x: hidden;
   height: 100%;
+  width: 100%;
 }
 .navbar {
   border-bottom: 1px solid black;
@@ -60,10 +64,10 @@ Content*
   text-align: center;
   padding-top: 6%;
 }
-.one {
+.img_one {
   background-image: url(../img/ashton-clark-424090-unsplash.jpg);
 }
-.two {
+.img_two {
   background-image: url(../img/casey-murphy-555659-unsplash.jpg);
 }
 .videoSection {
@@ -81,4 +85,17 @@ Content*
 }
 .ctaTitle {
   padding: 2%;
+}
+.footer {
+  background-color: aqua;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 2.5rem;
+}
+.footer_two {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5em; 
 }
