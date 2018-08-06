@@ -67,6 +67,11 @@ Content*
   background-image: url(../img/ashton-clark-424090-unsplash.jpg);
   height: 30em;
 }
+.img_one h1 {
+  padding-top: 3%;
+  color: orange;
+  text-shadow: 1px 1px 1px black;
+}
 .img_two {
   background-image: url(../img/casey-murphy-555659-unsplash.jpg);
   height: 30em;
