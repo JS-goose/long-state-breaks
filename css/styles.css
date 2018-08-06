@@ -6,10 +6,16 @@ body {
   overflow-x: hidden;
   height: 100%;
 }
+.navbar {
+  border-bottom: 1px solid black;
+  background-color: aliceblue;
+}
 .navLinks {
   display: flex;
   margin-left: 3%;
-  /* justify-content: end; */
+}
+.nav-link{
+color: orange !important;
 }
 .social {
   display: flex;
