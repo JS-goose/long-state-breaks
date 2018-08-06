@@ -61,5 +61,12 @@ Content*
   height: 100%;
   padding: 20px;
 }
+.inDepth  {
+  padding: 3%;
+  border: 1px solid black;
+}
+.ctaTitle {
+  padding: 2%;
+}
 
 
