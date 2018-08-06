@@ -45,7 +45,6 @@ Content*
   border-right: 1px solid black;
 }
 .imgDivider {
-  background-image: url(../img/ashton-clark-424090-unsplash.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -55,18 +54,25 @@ Content*
   text-align: center;
   padding-top: 6%;
 }
+.one {
+  background-image: url(../img/ashton-clark-424090-unsplash.jpg);
+}
+.two {
+  background-image: url(../img/casey-murphy-555659-unsplash.jpg);
+}
 .videoSection {
   display: flex;
   justify-content: space-around;
   height: 100%;
   padding: 20px;
 }
-.inDepth  {
+.inDepth {
   padding: 3%;
   border: 1px solid black;
+}
+.ctaSection {
+  padding: 2%;
 }
 .ctaTitle {
   padding: 2%;
 }
-
-
