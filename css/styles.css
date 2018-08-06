@@ -88,5 +88,6 @@ Content*
   padding: 2%;
 }
 .footer {
-  background-color: aliceblue;
+  background-color: black;
+  height: 5em;
 }
