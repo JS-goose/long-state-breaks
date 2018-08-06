@@ -36,10 +36,14 @@ Banner**
   color: orange;
   height: 25em;
 }
+.banner h1 {
+  font-size: 4em;
+}
 .bannerText {
-  padding-top: 5%;
-  margin-left: 5%;
-  text-align: left;
+  position: fixed;
+  padding-top: 10%;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
 }
 /* 
 ********
