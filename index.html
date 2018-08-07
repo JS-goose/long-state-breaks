@@ -25,7 +25,7 @@
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <nav class="navbar navbar-expand-lg navbar-light navbar_bg<!--bg-dark-->" <a class="navbar-brand" href="#">Logo</a>
+    <nav class="navbar navbar-expand-lg navbar-light navbar_bg fixed-top" <a class="navbar-brand" href="#">Logo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -54,18 +54,18 @@
                     </div>
                 </li>
             </ul>
-            <div class="social">
-                <!-- TODO : Move this section to right justified  -->
-                <a href="#">Social Media</a>
-            </div>
             <!-- <div class="navbar navbar-expand-lg navbar-light navbar_bg">Social Media Links - Facebook - YouTube - Twitter</div> -->
         </div>
+        <!-- <div class="navbar-collapse social"> -->
+        <!-- TODO : Move this section to right justified  -->
+        <!-- <a href="#">Social Media Links</a> -->
+        <!-- </div>  -->
     </nav>
 
     <main>
         <div class="container-fluid banner">
             <div class="row">
-                <div class="col-12 bannerText">
+                <div class="col-lg-12 bannerText">
                     <h1>Long State Breaks</h1>
                     <p>Company Slogan</p>
                 </div>
@@ -73,14 +73,13 @@
         </div>
 
         <div class="row breakSection">
-            <div class="col-8 breakExp">
-                <h1 class="breakTitle">About us (LSB) and explanation of breaking</h1>
-                <p>Lots of info here about us and explaining breaking. This is information for our 
-                    customers. We'll put relevant information here.  There may be some links but 
-                    there will be useful information that visitors can use.  
+            <div class="col-sm-8 breakExp">
+                <h1 class="breakTitle">About us (LSB) and brief explanation of breaking</h1>
+                <p>Lots of info here about us and explaining breaking. This is information for our customers. We'll put relevant
+                    information here. There may be some links but there will be useful information that visitors can use.
                 </p>
             </div>
-            <div class="col-4 breakTypes">
+            <div class="col-sm-4 breakTypes">
                 <h1>Types of Breaks</h1>
                 <ul class="breakList">
                     <li class="breakItem">Random Team Breaks</li>
@@ -93,10 +92,10 @@
             </div>
         </div>
 
-        <div class="container-fluid imgDivider">
-            <div class="col-12">
+        <div class="container-fluid imgDivider img_one">
+            <div class="col-lg-12">
                 <h1>Check out Our YouTube Content</h1>
-                <button class="class youtubeButton">
+                <button class="btn btn-dark youtubeButton">
                     Our Videos
                 </button>
             </div>
@@ -104,19 +103,109 @@
 
         <div class="container videoSection">
             <div class="row justify-content-md-center">
-                <div class="col-md-auto videos one">
-                    <iframe width="315" height="198" src="https://www.youtube.com/embed/GLt2cxmoN0k" frameborder="0" allow="autoplay; encrypted-media"
+                <div class="col-md-auto videos">
+                    <iframe width="315" height="198" src="https://www.youtube.com/embed/GLt2cxmoN0k1" frameborder="0" allow="autoplay; encrypted-media"
                         allowfullscreen></iframe>
                 </div>
-                <div class="col-md-auto videos two">
-                    <iframe width="315" height="198" src="https://www.youtube.com/embed/GLt2cxmoN0k" frameborder="0" allow="autoplay; encrypted-media"
+                <div class="col-md-auto videos">
+                    <iframe width="315" height="198" src="https://www.youtube.com/embed/GLt2cxmoN0k1" frameborder="0" allow="autoplay; encrypted-media"
                         allowfullscreen></iframe>
                 </div>
-                <div class="col-md-auto videos three">
-                    <iframe width="315" height="198" src="https://www.youtube.com/embed/GLt2cxmoN0k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="col-md-auto videos">
+                    <iframe width="315" height="198" src="https://www.youtube.com/embed/GLt2cxmoN0k1" frameborder="0" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
                 </div>
-            </div>            
+            </div>
         </div>
+
+        <div class="class container-fluid inDepth">
+            <div class="row inDepth_aboutus">
+                <div class="col-md-6">
+                    <h2>What is Breaking?</h2>
+                    <p>In depth explanation of what breaking is</p>
+                </div>
+
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <p>In depth about founders and/or company</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid ctaSection">
+            <div class="row justify-content-md-center ctaTitle">
+                <h2>CTA Here Maybe?</h2>
+            </div>
+
+            <div class="row">
+                <div class="card col-md-4" style="width: 18rem;">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Special Breaks</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Quisque egestas diam in arcu cursus euismod quis viverra. </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card col-md-4" style="width: 18rem;">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Request Breaks</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Quisque egestas diam in arcu cursus euismod quis viverra. </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card col-md-4" style="width: 18rem;">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Limited Time Breaks</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Quisque egestas diam in arcu cursus euismod quis viverra. </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid imgDivider img_two">
+            <div class="row justify-content-sm-center">
+                <div class="col-lg-12">
+                    <button class="btn btn-primary">Break Section</button>
+                    <button class="btn btn-primary">Contact Us</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="container-fluid footer fixed-bottom">
+            <div class="row">
+                <div class="col-lg-4 footer_two">
+                    <p>Logo Here</p>
+                </div>
+            </div>
+        </div> -->
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Our Picks</h1>
+                    <p>maybe an image slider here of all the awesome cards we've picked?</p>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <p>Logo Here</p>
+            </div>
+        </footer>
+
+
     </main>
 
 
