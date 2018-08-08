@@ -96,7 +96,14 @@ Content*
 .ctaTitle {
   padding: 2%;
 }
+/* 
+********
+Footer**
+********
+ */
 .footer {
-  background-color: black;
   height: 5em;
+}
+.copyright {
+  text-align: center;
 }
