@@ -1,3 +1,7 @@
+:root {
+  --dark-orange: #EA7E2F;
+  --dark-blue: #06162F;
+}
 html {
   height: 100%;
   width: 100%;
@@ -12,14 +16,14 @@ body {
 }
 .navbar {
   border-bottom: 1px solid black;
-  background-color: aliceblue;
+  background-color: var(--dark-blue);
 }
 .navLinks {
   display: flex;
   margin-left: 3%;
 }
 .nav-link{
-color: orange !important;
+color: var(--orange) !important;
 }
 .social {
   display: flex;
@@ -34,8 +38,8 @@ Banner**
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
-  color: orange;
-  height: 28em;
+  height: 24em;
+  margin-top: 3.5%;;
 }
 .banner h1 {
   font-size: 4em;
