@@ -103,7 +103,16 @@ Footer**
  */
 .footer {
   height: 5em;
+  background-color: aliceblue;
+  border-top: 1px solid black;
 }
 .copyright {
   text-align: center;
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#copyright_lsb {
+  text-align: end;
 }
