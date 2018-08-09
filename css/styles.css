@@ -17,7 +17,10 @@ body {
 .button {
   background-color: var(--dark-orange);
   color: var(--dark-blue);
-  border: 1px solid var(--dark-blue);
+  border: 1px solid var(--dark-blue) !important;
+}
+.button:hover {
+  color: orange;
 }
 /* 
 ********
@@ -117,17 +120,9 @@ Footer**
 ********
  */
 .footer {
-  height: 5em;
-  background-color: aliceblue;
+  height: 6em;
+  background-color: var(--dark-blue);
   border-top: 1px solid black;
+  color: var(--dark-orange);
 }
-.copyright {
-  text-align: center;
-  background-color: aliceblue;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-#copyright_lsb {
-  text-align: end;
-}
+
