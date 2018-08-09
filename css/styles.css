@@ -30,11 +30,12 @@ Banner**
 ********
  */
 .banner {
-  background-image: url(../img/tim-gouw-124468-unsplash.jpg);
-  background-size: cover;
+  background-image: url(../img/long-state-breaks.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
   background-position: center;
   color: orange;
-  height: 25em;
+  height: 28em;
 }
 .banner h1 {
   font-size: 4em;
