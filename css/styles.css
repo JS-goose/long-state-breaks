@@ -47,8 +47,8 @@ color: var(--orange) !important;
 .dropdown-item {
   color: var(--dark-orange) !important;
 }
-.social {
-  display: flex;
+#social {
+  color: orange;
 }
 /* 
 ********
@@ -56,7 +56,7 @@ Banner**
 ********
  */
 .banner {
-  background-image: url(../img/long-state-breaks.jpg);
+  background-image: url(../img/long-state-breaks-min.jpg);
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
@@ -85,7 +85,7 @@ Content*
   text-align: center;
 }
 .img_one {
-  background-image: url(../img/ashton-clark-424090-unsplash.jpg);
+  background-image: url(../img/ashton-clark-424090-unsplash-min.jpg);
   height: 30em;
 }
 .img_one h1 {
@@ -94,7 +94,7 @@ Content*
   text-shadow: 1px 1px 1px black;
 }
 .img_two {
-  background-image: url(../img/casey-murphy-555659-unsplash.jpg);
+  background-image: url(../img/casey-murphy-555659-unsplash-min.jpg);
   height: 30em;
 }
 .videoSection {
