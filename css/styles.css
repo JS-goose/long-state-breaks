@@ -127,4 +127,9 @@ Footer**
   border-top: 1px solid black;
   color: var(--dark-orange);
 }
-
+.copyright {
+  text-align: center;
+}
+.my-copyright {
+  background-color: var(--dark-blue);
+}
