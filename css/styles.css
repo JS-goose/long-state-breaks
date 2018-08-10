@@ -83,7 +83,6 @@ Content*
   position: relative;
   color: black;
   text-align: center;
-  padding-top: 6%;
 }
 .img_one {
   background-image: url(../img/ashton-clark-424090-unsplash.jpg);
@@ -113,6 +112,9 @@ Content*
 }
 .ctaTitle {
   padding: 2%;
+}
+.card {
+  text-align: center;
 }
 /* 
 ********
