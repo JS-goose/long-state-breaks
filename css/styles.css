@@ -47,9 +47,7 @@ color: var(--orange) !important;
 .dropdown-item {
   color: var(--dark-orange) !important;
 }
-#social {
-  color: orange;
-}
+
 /* 
 ********
 Banner**
@@ -115,6 +113,7 @@ Content*
 }
 .card {
   text-align: center;
+  align-items: center;
 }
 /* 
 ********
