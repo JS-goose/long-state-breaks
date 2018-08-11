@@ -1,6 +1,6 @@
 :root {
-  --dark-orange: #EA7E2F;
-  --dark-blue: #06162F;
+  --dark-orange: #ea7e2f;
+  --dark-blue: #06162f;
 }
 html {
   height: 100%;
@@ -35,8 +35,8 @@ Nav Menu*
   display: flex;
   margin-left: 3%;
 }
-.nav-link{
-color: var(--orange) !important;
+.nav-link {
+  color: var(--orange) !important;
 }
 .navbar-toggler {
   background-color: var(--dark-orange) !important;
@@ -59,7 +59,7 @@ Banner**
   background-repeat: no-repeat;
   background-position: center;
   height: 24em;
-  margin-top: 3.5%;;
+  margin-top: 3.5%;
 }
 /* 
 ********
@@ -116,6 +116,25 @@ Content*
 .card {
   text-align: center;
   align-items: center;
+}
+/* 
+********
+Contact*
+********
+ */
+.map {
+  padding: 2%;
+}
+.map h4 {
+  text-align: center;
+}
+.contactIcon {
+  font-size: 2em;
+  margin-right: 2%;
+}
+.waysToContact > li {
+  margin: 5%;
+  list-style: none;
 }
 /* 
 ********
