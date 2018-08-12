@@ -117,10 +117,15 @@ Content*
   text-align: center;
   align-items: center;
 }
+.title {
+  padding-bottom: 2%;
+  color: var(--dark-orange);
+  text-shadow: 1px 3px 5px var(--dark-blue);
+}
 /* 
-********
-Contact*
-********
+*********************
+Contact Page Styling*
+*********************
  */
 .map {
   padding: 2%;
