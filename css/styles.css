@@ -55,11 +55,11 @@ Banner**
  */
 .banner {
   background-image: url(../img/long-state-breaks-min.jpg);
-  background-size: 50%;
+  background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
-  height: 24em;
-  margin-top: 3.5%;
+  height: 25em;
+  margin-top: 3%;
 }
 /* 
 ********
