@@ -103,11 +103,12 @@ Content*
 .inDepth {
   padding: 3%;
   border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   text-align: center;
 }
 .ctaSection {
-  padding: 2%;
+  padding: 3%;
+  border-top: 1px solid var(--dark-blue);
 }
 .ctaTitle {
   padding: 2%;
