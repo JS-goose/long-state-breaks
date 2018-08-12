@@ -140,6 +140,7 @@ Contact Page Styling*
 .waysToContact > li {
   margin: 5%;
   list-style: none;
+  color: var(--dark-orange);
 }
 /* 
 ********
