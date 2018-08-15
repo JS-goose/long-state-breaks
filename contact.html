@@ -58,16 +58,18 @@
         <div class="collapse navbar-collapse order-3 order-lg-2" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#aboutUs">About</a>
+                    <a class="nav-link" href="https://lsbcardbreaks.com/index.html#aboutUs">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                    <!-- TODO:
+                    Fix drop down menu because it does not properly work on contact page but functions as expected on index -->
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false">Breaks</a>
                     <div class="dropdown-menu dropdown-menu-right">
                         <a class="dropdown-item" href="#whatIsBreaking">What Is Breaking?</a>
@@ -102,17 +104,26 @@
                                 get together! If you're not, here's our contact info:
 
                                 <ul class="waysToContact">
-                                    <li>
-                                        <i class="fas contactIcon fa-mobile-alt"></i>  865-424-0066
+                                    <li class="nav-link px-2">
+                                        <i class="fas contactIcon fa-mobile-alt"></i> 865-424-0066
                                     </li>
                                     <li>
-                                        <i class="fab contactIcon fa-facebook-f"></i>  Facebook
+                                        <a class="nav-link px-2" href="https://www.facebook.com/longstate.breaks" target="_blank">
+                                            <i class="fab contactIcon fa-facebook-f"></i> Facebook
+                                        </a>
                                     </li>
                                     <li>
-                                        <i class="fab contactIcon fa-twitter"></i>  Twitter
+                                        <a class="nav-link px-2" href="https://twitter.com/longstatebreaks" target="_blank">
+                                            <i class="fab contactIcon fa-twitter"></i> Twitter
+                                        </a>
                                     </li>
                                     <li>
-                                        <i class="fab contactIcon fa-instagram"></i>  Instagram
+                                        <a class="nav-link px-2" href="https://www.instagram.com/longstatebreaks/" target="_blank">
+                                            <i class="fab contactIcon fa-instagram"></i> Instagram
+                                        </a>
+                                    </li>
+                                    <li class="nav-link px-2">
+                                        <i class="far contactIcon fa-envelope"></i>caleb or josh @longstatebreaks.com
                                     </li>
                                 </ul>
                             </p>
