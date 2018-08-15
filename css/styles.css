@@ -55,11 +55,11 @@ Banner**
  */
 .banner {
   background-image: url(../img/long-state-breaks-min.jpg);
-  background-size: 50%;
+  background-size: 40%;
   background-repeat: no-repeat;
   background-position: center;
-  height: 24em;
-  margin-top: 3.5%;
+  height: 25em;
+  margin-top: 3%;
 }
 /* 
 ********
@@ -103,11 +103,12 @@ Content*
 .inDepth {
   padding: 3%;
   border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   text-align: center;
 }
 .ctaSection {
-  padding: 2%;
+  padding: 3%;
+  border-top: 1px solid var(--dark-blue);
 }
 .ctaTitle {
   padding: 2%;
@@ -116,10 +117,15 @@ Content*
   text-align: center;
   align-items: center;
 }
+.title {
+  padding-bottom: 2%;
+  color: var(--dark-orange);
+  text-shadow: 1px 3px 5px var(--dark-blue);
+}
 /* 
-********
-Contact*
-********
+*********************
+Contact Page Styling*
+*********************
  */
 .map {
   padding: 2%;
@@ -134,6 +140,7 @@ Contact*
 .waysToContact > li {
   margin: 5%;
   list-style: none;
+  color: var(--dark-orange);
 }
 /* 
 ********
